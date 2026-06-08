@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-hibiscus",
+  "version": "1.0.0",
+  "description": "A website for a (fictional) Restaurant Hibiscus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lozukka/restaurant-hibiscus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lozukka/restaurant-hibiscus/issues"
+  },
+  "homepage": "https://github.com/lozukka/restaurant-hibiscus#readme",
+  "devDependencies": {
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3"
+  }
+}
