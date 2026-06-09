@@ -2,3 +2,37 @@
 body {
   background: #9ec0e3;
 }
+main,
+footer,
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+nav button {
+  width: 150px;
+  height: 70px;
+  background: aliceblue;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+nav button:hover {
+  background: rgb(141, 170, 196);
+}
+#content {
+  width: 40%;
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 24px;
+}
+#open-hours ul {
+  list-style: none;
+}
+#side {
+  border: 5px solid pink;
+  border-radius: 24px;
+  padding: 1rem;
+}

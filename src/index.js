@@ -1,5 +1,18 @@
-// src/index.js
 import "./styles.css";
-import { greeting } from "./greeting.js";
+import "./home.js";
 
-console.log(greeting);
+const nav = document.querySelector("nav");
+
+nav.addEventListener("click", updateScreen);
+
+function updateScreen(e) {
+  const clickedBtn = e.target.dataset.page;
+
+  if (clickedBtn === "home") {
+    console.log("you clicked home-button");
+  } else if (clickedBtn === "menu") {
+    console.log("you clicked menu-button");
+  } else {
+    console.log("you clicked about-button");
+  }
+}
