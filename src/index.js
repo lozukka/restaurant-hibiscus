@@ -15,7 +15,7 @@ function updateScreen(e) {
     renderHome();
   } else if (clickedBtn === "menu") {
     renderMenu();
-  } else {
+  } else if (clickedBtn === "about") {
     renderAbout();
   }
 }
