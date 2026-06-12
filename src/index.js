@@ -1,5 +1,7 @@
 import "./styles.css";
 import { renderHome } from "./home.js";
+import { renderMenu } from "./menu.js";
+import { renderAbout } from "./about.js";
 
 const nav = document.querySelector("nav");
 
@@ -13,7 +15,9 @@ function updateScreen(e) {
     renderHome();
   } else if (clickedBtn === "menu") {
     console.log("you clicked menu-button");
+    renderMenu();
   } else {
     console.log("you clicked about-button");
+    renderAbout();
   }
 }
