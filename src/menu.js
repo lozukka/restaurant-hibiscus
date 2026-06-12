@@ -1,15 +1,13 @@
-const contentArea = document.getElementById("content");
-
 export function renderMenu() {
+  const contentArea = document.getElementById("content");
   contentArea.textContent = "";
-  const description = document.createElement("div");
-  description.id = "description";
-  description.innerHTML = `
-    <h1>Restaurant Hibiscus</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
-    maiores, deleniti repudiandae ipsam laboriosam consectetur quae in
-    quia temporibus nihil nemo officiis autem tenetur cumque incidunt
-    eligendi. Impedit, a dolorem?</p>
+
+  contentArea.innerHTML = `
+    <h1>Menu</h1>
+    <ul>
+    <li>Coffee $3</li>
+    <li>Biscuit $1</li>
+    <li>Afternoon tea and snacks $5</li>
+    </ul>
     `;
-  contentArea.appendChild(description);
 }
