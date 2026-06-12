@@ -1,6 +1,5 @@
 export function renderAbout() {
   const contentArea = document.getElementById("content");
-  contentArea.textContent = "";
 
   contentArea.innerHTML = `
   <h1>About us</h1>

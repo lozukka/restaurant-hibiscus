@@ -1,6 +1,5 @@
 export function renderMenu() {
   const contentArea = document.getElementById("content");
-  contentArea.textContent = "";
 
   contentArea.innerHTML = `
     <h1>Menu</h1>
