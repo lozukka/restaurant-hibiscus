@@ -9,15 +9,15 @@ nav.addEventListener("click", updateScreen);
 
 function updateScreen(e) {
   const clickedBtn = e.target.dataset.page;
+  if (!clickedBtn) return;
 
   if (clickedBtn === "home") {
-    console.log("you clicked home-button");
     renderHome();
   } else if (clickedBtn === "menu") {
-    console.log("you clicked menu-button");
     renderMenu();
   } else {
-    console.log("you clicked about-button");
     renderAbout();
   }
 }
+
+renderHome();
